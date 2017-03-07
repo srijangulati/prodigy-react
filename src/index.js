@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from 'components/app';
+import RoutesClass from 'router';
 
-render(<App />, document.getElementById('app'));
+
+render(<RoutesClass />, document.getElementById('app'));
